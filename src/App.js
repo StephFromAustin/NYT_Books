@@ -1,7 +1,13 @@
+// DEPENDENCIES 
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import navigation from './components/navigation';
+import books from './info/books';
+import synposis from './info/synposis';
+import NotFound from './info/NotFound';
 
+// APP FUNCTION 
 class App extends Component {
   render() {
     return (
